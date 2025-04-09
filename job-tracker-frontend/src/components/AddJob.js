@@ -24,7 +24,7 @@ const AddJob = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/jobs', formData);
+      await axios.post('https://job-traker-vitt.onrender.com/api/jobs', formData);
       window.location = '/';
     } catch (err) {
       console.error(err);
