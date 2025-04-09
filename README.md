@@ -84,7 +84,9 @@ job-tracker/
 
 │   │   ├── components/  
 │   │   │   ├── AddJob.js  
+
 │   │   │   ├── JobList.js 
+
 │   │   │   └── Navbar.js   
 
 │   │   ├── App.js    
