@@ -49,39 +49,66 @@ Material UI components for consistency and accessibility.
 📁 Folder Structure :- 
 
 job-tracker/
-├── job-tracker-backend/            # Backend - Express API
-│   ├── config/
-│   │   └── db.js                   # MongoDB connection setup
-│   ├── controllers/
-│   │   └── jobController.js        # Handles job CRUD logic
-│   ├── models/
-│   │   └── Job.js                  # Mongoose schema for Job
-│   ├── routes/
-│   │   └── jobRoutes.js            # Job routes
-│   ├── .env                        # Environment variables
-│   ├── package.json
-│   ├── package-lock.json
-│   └── server.js                   # Entry point of backend server
+├── job-tracker-backend/    
 
-├── job-tracker-frontend/           # Frontend - React App
-│   ├── node_modules/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/             # Reusable components
-│   │   │   ├── AddJob.js           # Form to add a new job
-│   │   │   ├── JobList.js          # Table to list/filter/edit jobs
-│   │   │   └── Navbar.js           # Navigation bar (if used)
-│   │   ├── App.js                  # Main app component
-│   │   ├── App.css                 # App-level styles
-│   │   ├── index.js                # React DOM entry
-│   │   ├── index.css               # Global styles
-│   │   ├── logo.svg
-│   │   ├── reportWebVitals.js
-│   │   └── setupTests.js
+│   ├── config/
+│   │   └── db.js   
+
+│   ├── controllers/
+│   │   └── jobController.js 
+
+│   ├── models/
+│   │   └── Job.js 
+
+│   ├── routes/
+│   │   └── jobRoutes.js
+
+│   ├── .env   
+
 │   ├── package.json
+
+│   ├── package-lock.json
+
+│   └── server.js                  
+
+
+
+
+├── job-tracker-frontend/  
+
+│   ├── node_modules/
+
+│   ├── public/
+
+│   ├── src/
+
+│   │   ├── components/  
+│   │   │   ├── AddJob.js  
+
+│   │   │   ├── JobList.js 
+
+│   │   │   └── Navbar.js   
+
+│   │   ├── App.js    
+
+│   │   ├── App.css 
+
+│   │   ├── index.js   
+
+│   │   ├── index.css   
+
+│   │   ├── logo.svg
+
+│   │   ├── reportWebVitals.js
+
+│   │   └── setupTests.js
+
+│   ├── package.json
+
 │   ├── package-lock.json
 
 ├── .gitignore
+
 └── README.md
 
 
@@ -164,10 +191,8 @@ Connect on LinkedIn
 
 ** screenshot**
 1. ![add job page](<Screenshot/addjob page.jpg>)
-2. ![add job page filled](<Screenshot/addjob page1.jpg>)
 3. ![job list](<Screenshot/job list.jpg>)
 4. ![filtered job list](<Screenshot/job list filter1.jpg>)
-5. ![filtered job list1](<Screenshot/job list filter.jpg>)
 6. ![filtered job list 2](<Screenshot/job list filter 2.jpg>)
 
 
