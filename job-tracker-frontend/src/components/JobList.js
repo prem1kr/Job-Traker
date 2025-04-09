@@ -17,7 +17,7 @@ const JobList = () => {
 
   const fetchJobs = async () => {
     try {
-      const { data } = await axios.get('http://localhost:5000/api/jobs');
+      const { data } = await axios.get('https://job-traker-vitt.onrender.com/api/jobs');
       setJobs(data);
     } catch (err) {
       console.error('Error fetching jobs:', err);
@@ -26,7 +26,7 @@ const JobList = () => {
 
   const updateJob = async (id, updateData) => {
     try {
-      await axios.put(`http://localhost:5000/api/jobs/${id}`, updateData);
+      await axios.put(`https://job-traker-vitt.onrender.com/api/jobs/${id}`, updateData);
       fetchJobs();
     } catch (err) {
       console.error('Error updating job:', err);
@@ -35,7 +35,7 @@ const JobList = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/jobs/${id}`);
+      await axios.delete(`https://job-traker-vitt.onrender.com/api/jobs/${id}`);
       fetchJobs();
     } catch (err) {
       console.error('Error deleting job:', err);
