@@ -52,19 +52,15 @@ job-tracker/
 ├── job-tracker-backend/    
 
 │   ├── config/
-
 │   │   └── db.js   
 
 │   ├── controllers/
-
 │   │   └── jobController.js 
 
 │   ├── models/
-
 │   │   └── Job.js 
 
 │   ├── routes/
-
 │   │   └── jobRoutes.js
 
 │   ├── .env   
@@ -87,11 +83,8 @@ job-tracker/
 │   ├── src/
 
 │   │   ├── components/  
-
 │   │   │   ├── AddJob.js  
-
 │   │   │   ├── JobList.js 
-
 │   │   │   └── Navbar.js   
 
 │   │   ├── App.js    
