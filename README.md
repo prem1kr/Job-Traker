@@ -191,10 +191,8 @@ Connect on LinkedIn
 
 ** screenshot**
 1. ![add job page](<Screenshot/addjob page.jpg>)
-2. ![add job page filled](<Screenshot/addjob page1.jpg>)
 3. ![job list](<Screenshot/job list.jpg>)
 4. ![filtered job list](<Screenshot/job list filter1.jpg>)
-5. ![filtered job list1](<Screenshot/job list filter.jpg>)
 6. ![filtered job list 2](<Screenshot/job list filter 2.jpg>)
 
 
