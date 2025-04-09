@@ -49,42 +49,71 @@ Material UI components for consistency and accessibility.
 📁 Folder Structure :- 
 
 job-tracker/
-├── job-tracker-backend/        
+├── job-tracker-backend/    
+
 │   ├── config/
-│   │   └── db.js                  
+
+│   │   └── db.js   
+
 │   ├── controllers/
-│   │   └── jobController.js       
+
+│   │   └── jobController.js 
+
 │   ├── models/
-│   │   └── Job.js                 
+
+│   │   └── Job.js 
+
 │   ├── routes/
-│   │   └── jobRoutes.js           
-│   ├── .env                      
+
+│   │   └── jobRoutes.js
+
+│   ├── .env   
+
 │   ├── package.json
+
 │   ├── package-lock.json
+
 │   └── server.js                  
 
 
 
 
-├── job-tracker-frontend/           
+├── job-tracker-frontend/  
+
 │   ├── node_modules/
+
 │   ├── public/
+
 │   ├── src/
-│   │   ├── components/           
-│   │   │   ├── AddJob.js           
-│   │   │   ├── JobList.js          
-│   │   │   └── Navbar.js           
-│   │   ├── App.js                 
-│   │   ├── App.css                 
-│   │   ├── index.js                
-│   │   ├── index.css               
+
+│   │   ├── components/  
+
+│   │   │   ├── AddJob.js  
+
+│   │   │   ├── JobList.js 
+
+│   │   │   └── Navbar.js   
+
+│   │   ├── App.js    
+
+│   │   ├── App.css 
+
+│   │   ├── index.js   
+
+│   │   ├── index.css   
+
 │   │   ├── logo.svg
+
 │   │   ├── reportWebVitals.js
+
 │   │   └── setupTests.js
+
 │   ├── package.json
+
 │   ├── package-lock.json
 
 ├── .gitignore
+
 └── README.md
 
 
