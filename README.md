@@ -2,7 +2,7 @@ Student Job Tracker - MERN Stack Web App
 A modern and responsive job application tracker built with the MERN Stack (MongoDB, Express, React, Node.js). This app allows students and job seekers to manage their job applications with features like adding, updating, filtering, and deleting applications.
 
 🚀 Live Demo
-[Optional: Add link once deployed to Vercel (frontend) and Render/Railway (backend)]
+[Optional:https://job-traker-seven.vercel.app/ (frontend) https://job-traker-vitt.onrender.com  (backend)]
 
 📦 Tech Stack
 Layer	Technology
@@ -10,7 +10,7 @@ Frontend -	React, Material UI, Axios
 Backend -	Node.js, Express.js
 Database -	MongoDB (MongoDB Atlas)
 Styling -	Material UI, Custom CSS, Framer Motion
-Deployment - Vercel (Frontend), Render/Railway (Backend)
+Deployment - Vercel (Frontend), Render(Backend)
 
 
 Features :- 
@@ -120,22 +120,18 @@ MongoDB Atlas account
 
 1. Clone the Repository
 bash
-Copy
-Edit
-git clone https://github.com/yourusername/job-tracker.git
+git clone https://github.com/prem01kr/job-tracker.git
 cd job-tracker
 
 2. Backend Setup
 bash
-
 cd server
 npm install
 Create a .env file:
-
-env
+.env
 
 PORT=5000
-MONGO_URI=your_mongodb_atlas_connection_string
+MONGO_URI=mongodb+srv://premkm016:ovLGHXdSLHfs9IMG@cluster1.00dla.mongodb.net/auth_db?retryWrites=true&w=majority&appName=Cluster1
 
 Start the server:
 bash
@@ -160,17 +156,17 @@ POST	 /api/jobs	    Add new job
 GET	    /api/jobs	    Get all jobs
 PUT	   /api/jobs/:id	Update job status/date
 DELETE	/api/jobs/:id	Delete job
+
 💻 Deployment
 Frontend (Vercel)
 Connect your repo to Vercel.
-
-Set frontend build directory: /client
+Set frontend build directory: ./build
 
 Add environment variable:
 
-REACT_APP_BACKEND_URL=https://your-api-endpoint.onrender.com
-Backend (Render/Railway)
-Deploy server/ directory to Render or Railway.
+REACT_APP_BACKEND_URL=https://job-traker-vitt.onrender.com
+Backend (Render)
+Deploy server/ directory to Render.
 
 
 🙌 Acknowledgements
@@ -186,7 +182,7 @@ Vercel
 
 📬 Contact
 Made by Prem Kumar
-Connect on LinkedIn
+https://pk-portfoliosite.netlify.app/
 
 
 ** screenshot**

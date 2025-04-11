@@ -1,8 +1,7 @@
 const Job = require('../models/Job');
 const mongoose = require('mongoose');
 
-// @desc    Create a new job application
-// @route   POST /api/jobs
+
 exports.createJob = async (req, res) => {
   try {
     console.log("📥 Creating job with data:", req.body);
@@ -24,8 +23,7 @@ exports.createJob = async (req, res) => {
   }
 };
 
-// @desc    Get all job applications
-// @route   GET /api/jobs
+
 exports.getJobs = async (req, res) => {
   try {
     const jobs = await Job.find().sort({ appliedDate: -1 });
